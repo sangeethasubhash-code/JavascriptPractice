@@ -16,8 +16,8 @@ const { info } = require("node:console");
 
 // }
 
-// //object creation is done by using the new keyword and calling 
-// //the class name
+// //object creation is done by using the new 'this' keyword and calling 
+//the class name
 // let v=new vehicle("ferrari", 250000); //object creation
 
 //class creation with constructor and method
@@ -28,7 +28,7 @@ class vehicle{
         this.price=price;
         console.log('this is constructor method');
     }
-    info() //info method is used to display the information of the 
+    info() // method is used to display the information of the 
     // vehicle
     {
         console.log(this.name);
